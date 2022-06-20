@@ -103,3 +103,36 @@ input[type=button] {
 input[type=button]:hover {
   background-color: #e1880a;
 }
+
+.authentic {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.right-col {
+  text-align: center;
+  margin: 3rem 1rem;
+}
+
+h2 {
+  text-transform: uppercase;
+  position: relative;
+}
+
+h2::before {
+  content: ' ';
+  position: absolute;
+  width: 5em;
+  background: #00bfff;
+  height: .5rem;
+  bottom: 0;
+  z-index: -1;
+  margin-left: -.3em
+}
+
+p {
+  line-height: 2em;
+}
